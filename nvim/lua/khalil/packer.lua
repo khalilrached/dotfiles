@@ -26,7 +26,16 @@ return require('packer').startup(function(use)
 	
 	-- parenthesis completion
 	use 'jiangmiao/auto-pairs'
-	use 'preservim/nerdtree'
+	
+	-- Files explorer
+	-- use 'preservim/nerdtree'
+	
+	use 'nvim-tree/nvim-tree.lua'
+	
+	use 'ap/vim-css-color' -- formating css color.
+
+	use 'tpope/vim-commentary' -- easily commenting code
+
 	-- lsp 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
