@@ -175,7 +175,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-bindsym $mod+Shift+s exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+s exec --no-startup-id maim --select | xclip -selection clipboard -t image/png -o > ~/Pictures/Screenshots/sreenshot_$(date '+%Y_%m_%d_%H_%M_%S').png
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
