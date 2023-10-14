@@ -1,0 +1,20 @@
+{
+  "user_name": "khalil",
+  "initial_setup_done": true,
+  "show_task_progress": true,
+  "show_quotes": true,
+  "tasks": [
+    {
+      "name": "30min @keybr.",
+      "done": false
+    },
+    {
+      "name": "Complete 6 problems @leetcode.",
+      "done": false
+    },
+    {
+      "name": "complete @boilerplate-api.",
+      "done": false
+    }
+  ]
+}

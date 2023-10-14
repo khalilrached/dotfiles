@@ -59,6 +59,8 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+	
+	use 'Dhanus3133/Leetbuddy.nvim'
 
 end)
 

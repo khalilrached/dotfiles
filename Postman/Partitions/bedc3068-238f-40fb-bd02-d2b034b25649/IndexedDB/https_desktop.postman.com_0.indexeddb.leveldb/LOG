@@ -1,0 +1,20 @@
+2023/10/06-01:48:22.015 2fcb7 Creating DB /home/khalil/.config/Postman/Partitions/bedc3068-238f-40fb-bd02-d2b034b25649/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb since it was missing.
+2023/10/06-01:48:22.019 2fcb7 Reusing MANIFEST /home/khalil/.config/Postman/Partitions/bedc3068-238f-40fb-bd02-d2b034b25649/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/06-01:48:22.025 2fcb8 Level-0 table #5: started
+2023/10/06-01:48:22.026 2fcb8 Level-0 table #5: 2186 bytes OK
+2023/10/06-01:48:22.027 2fcb8 Delete type=0 #3
+2023/10/06-01:48:22.027 2fcb8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/06-01:48:22.284 2fd1e Level-0 table #7: started
+2023/10/06-01:48:22.285 2fd1e Level-0 table #7: 2045 bytes OK
+2023/10/06-01:48:22.286 2fd1e Delete type=0 #4
+2023/10/06-01:48:22.286 2fd1e Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/06-01:48:22.287 2fcb8 Level-0 table #9: started
+2023/10/06-01:48:22.288 2fcb8 Level-0 table #9: 507 bytes OK
+2023/10/06-01:48:22.289 2fcb8 Delete type=0 #6
+2023/10/06-01:48:22.289 2fcb8 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 283 : 1
+2023/10/06-01:48:22.289 2fcb8 Compacting 1@0 + 1@1 files
+2023/10/06-01:48:22.290 2fcb8 Generated table #10@0: 111 keys, 1642 bytes
+2023/10/06-01:48:22.290 2fcb8 Compacted 1@0 + 1@1 files => 1642 bytes
+2023/10/06-01:48:22.291 2fcb8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/06-01:48:22.291 2fcb8 Delete type=2 #9
+2023/10/06-01:48:22.291 2fcb8 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 283 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
