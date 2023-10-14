@@ -1,6 +1,0 @@
-2023/10/06-01:48:22.174 2fcb8 Creating DB /home/khalil/.config/Postman/Partitions/bedc3068-238f-40fb-bd02-d2b034b25649/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2023/10/06-01:48:22.176 2fcb8 Reusing MANIFEST /home/khalil/.config/Postman/Partitions/bedc3068-238f-40fb-bd02-d2b034b25649/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2023/10/06-01:48:22.178 2fd1e Level-0 table #5: started
-2023/10/06-01:48:22.179 2fd1e Level-0 table #5: 492 bytes OK
-2023/10/06-01:48:22.180 2fd1e Delete type=0 #3
-2023/10/06-01:48:22.180 2fd1e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
