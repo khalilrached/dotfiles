@@ -18,3 +18,10 @@ if status is-interactive
 	alias enable_idf="source /usr/local/lib/esp/esp-idf/export.sh > /dev/null"
 
 end
+
+alias ll "ls -lha"
+
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
