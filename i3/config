@@ -36,13 +36,13 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Desktop config (2 monitors)
-#set $sc1 DP-1
-#set $sc2 HDMI-0
+set $sc1 DP-1
+set $sc2 HDMI-0
 # Laptop config (1 monitor)
-set $sc1 eDP-0
+# set $sc1 eDP-0
 
 exec --no-startup-id xrandr --output $sc1 --primary
-#exec --no-startup-id xrandr --output $sc2 --right-of $sc1
+exec --no-startup-id xrandr --output $sc2 --right-of $sc1
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -231,13 +231,13 @@ set $gap_inner	10
 gaps outer $gap_inner
 gaps inner 15
 #for desktop:
-#workspace 1 gaps top $gap_top
-#workspace 3 gaps top $gap_top
-#workspace 4 gaps top $gap_top
-#workspace 7 gaps top $gap_top
-#workspace 8 gaps top $gap_top
+workspace 1 gaps top $gap_top
+workspace 3 gaps top $gap_top
+workspace 4 gaps top $gap_top
+workspace 7 gaps top $gap_top
+workspace 8 gaps top $gap_top
 # for laptop:
-gaps top $gap_top
+# gaps top $gap_top
 # run picom
 exec_always picom --config ~/.config/picom/.conf
 
