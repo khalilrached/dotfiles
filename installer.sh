@@ -29,5 +29,5 @@ pacman -S --noconfirm ttf-dejavu ttf-liberation ttf-ubuntu-font-family ttf-robot
 echo "Fonts installed."
 echo "Installing omf..."
 # Install oh-my-fish
-pacman -S --noconfirm oh-my-fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 echo "omf installed."
