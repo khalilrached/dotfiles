@@ -21,7 +21,7 @@ pacman -S --noconfirm i3-gaps i3status i3lock dmenu rofi xorg-server-common
 echo "i3 window manager and dependencies installed."
 echo "Installing additional software..."
 # Install additional software
-pacman -S --noconfirm neofetch picom feh lxappearance thunar polybar fish
+pacman -S --noconfirm neofetch picom feh lxappearance thunar polybar fish xclip xorg-xrandr maim kitty
 echo "Additional software installed."
 echo "Installing fonts..."
 # Install fonts
