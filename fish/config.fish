@@ -13,8 +13,8 @@ if status is-interactive
 	# Example aliases
 	# alias zshconfig="mate ~/.zshrc"
 	# alias ohmyzsh="mate ~/.oh-my-zsh"
+	
 	alias ll="ls -lha"
-
 	alias enable_idf="source /usr/local/lib/esp/esp-idf/export.sh > /dev/null"
 
 end
